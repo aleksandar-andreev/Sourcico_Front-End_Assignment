@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Sourcico - Front-End Assignment</title>
+</head>
+<body>
+
+    <header>
+        <div class="header-logo">
+            <a href="#"><img src="assets/images/logo.png" alt="Logo"></a>
+        </div>
+        <div class="header-menu">
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Mandates</a></li>
+                <li><a href="#">Cases</a></li>
+                <li><a href="#">Entities</a></li>
+                <li><a href="#">Biometrics</a></li>
+            </ul>
+        </div>
+        <div class="header-options">
+            <div class="country-picker">
+                <select name="country" id="country">
+                    <option value="italy">Italy</option>
+                    <option value="israel">Israel</option>
+                    <option value="macedonia">Macedonia</option>
+                    <option value="moldova">Moldova</option>
+                </select>
+            </div>
+            <div class="user-box">
+                <a href="#">OP</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="sidebar">
+            <div class="breadcrumbs">
+                <ul>
+                    <li><a href="#">Entities</a></li>
+                    <li><a href="#">Entitie ID: #567</a></li>
+                </ul>
+            </div>
+            <div class="company">
+                <div class="logo">
+                    <img src="assets/images/building-regular.svg" alt="Building Logo">
+                </div>
+                <div class="name">Assicurazioni Generali SPA</div>
+            </div>
+            <div class="sidebar-menu">
+                <ul>
+                    <li><a href="#">Data</a></li>
+                    <li><a href="#">Mandates</a></li>
+                    <li><a href="#">Beneficial Owners</a></li>
+                    <li><a href="#">Cases</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Audit Logs</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="main-inner">
+                <div class="main-title">Organization Data</div>
+                <div class="main-box">
+                    <div class="top-bar">
+                        <div class="title">Identification Data</div>
+                    </div>
+                    <div class="info-row">
+                        <div class="info-box">
+                            <div class="title">Company Name</div>
+                            <div class="content">Assicurazioni Generali SPA</div>
+                        </div>
+                        <div class="info-box">
+                            <div class="title">Lei code</div>
+                            <div class="content">bfxs5xch7n0y05nixw11</div>
+                        </div>
+                        <div class="info-box">
+                            <div class="title">Vat Number</div>
+                            <div class="content">bfxs5xch7n0y05nixw11</div>
+                        </div>
+                    </div>
+                    <div class="info-row">
+                        <div class="info-box">
+                            <div class="title">Company Email</div>
+                            <div class="content">example@example.com</div>
+                        </div>
+                        <div class="info-box">
+                            <div class="title">Company Phone</div>
+                            <div class="content">00-00-00000000</div>
+                        </div>
+                        <div class="info-box">
+                            <div class="title">Company Fax</div>
+                            <div class="content">0000-000-00000</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-box">
+                    <div class="top-bar">
+                        <div class="title">Addresses</div>
+                    </div>
+                    <table class="table-address" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Address</th>
+                                <th>City</th>
+                                <th>Province</th>
+                                <th>Zip</th>
+                                <th>Country</th>
+                                <th>Civic Number</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="assets/images/home-solid.svg" alt="Home Icon"></td>
+                                <td>Pizza Duca Degli Abruzzi</td>
+                                <td>Milano</td>
+                                <td>Mi</td>
+                                <td>000000</td>
+                                <td class="flag"><img src="assets/images/italian-flag.svg" alt="Italian Flag">Italy</td>
+                                <td>0000000000000000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="main-box">
+                    <div class="top-bar">
+                        <div class="title">Contact Information</div>
+                        <div class="add-button">
+                            <a href="#">New Contact</a>
+                        </div>
+                    </div>
+                    <table class="table-contact" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Full Name</th>
+                                <th>Position</th>
+                                <th>Email</th>
+                                <th>Mobile Phone</th>
+                                <th>Business Phone</th>
+                                <th>Fax</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="assets/images/id-card-regular.svg" alt="User Icon"></td>
+                                <td>Diana Moss</td>
+                                <td>CFO</td>
+                                <td>Diana.m@abnamaro.com</td>
+                                <td>+ 000 00 111 1111</td>
+                                <td>+ 000 00 111 1111</td>
+                                <td>+ 000 00 111 1111</td>
+                                <td>
+                                    <div class="kebab-wrap">
+                                        <div class="kebab-menu"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Diana Moss</td>
+                                <td>CFO</td>
+                                <td>Diana.m@abnamaro.com</td>
+                                <td>+ 000 00 111 1111</td>
+                                <td>+ 000 00 111 1111</td>
+                                <td>+ 000 00 111 1111</td>
+                                <td>
+                                    <div class="kebab-wrap">
+                                        <div class="kebab-menu"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Diana Moss</td>
+                                <td>CFO</td>
+                                <td>Diana.m@abnamaro.com</td>
+                                <td>+ 000 00 111 1111</td>
+                                <td>+ 000 00 111 1111</td>
+                                <td>+ 000 00 111 1111</td>
+                                <td>
+                                    <div class="kebab-wrap">
+                                        <div class="kebab-menu"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
